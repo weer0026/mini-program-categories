@@ -17,7 +17,7 @@ for (index in struct) {
   for (id in struct[index]) {
     tem["children"].push({
       value: struct[index][id],
-      lable: map[struct[index][id]]
+      label: map[struct[index][id]]
     });
   }
   options.push(tem);
