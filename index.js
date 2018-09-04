@@ -186,9 +186,6 @@ module.exports = [
         "label": "民政"
       },
       {
-        "value": 83
-      },
-      {
         "value": 85,
         "label": "教育"
       },
@@ -371,9 +368,6 @@ module.exports = [
       {
         "value": 910,
         "label": "烟草管理单位"
-      },
-      {
-        "value": 1027
       }
     ]
   },
@@ -556,9 +550,6 @@ module.exports = [
         "label": "家政"
       },
       {
-        "value": 173
-      },
-      {
         "value": 185,
         "label": "丽人"
       },
@@ -583,12 +574,6 @@ module.exports = [
         "label": "洗浴保健"
       },
       {
-        "value": 208
-      },
-      {
-        "value": 664
-      },
-      {
         "value": 666,
         "label": "休闲娱乐"
       },
@@ -603,9 +588,6 @@ module.exports = [
       {
         "value": 866,
         "label": "宠物医院/兽医"
-      },
-      {
-        "value": 934
       },
       {
         "value": 1013,
@@ -628,9 +610,6 @@ module.exports = [
       {
         "value": 413,
         "label": "软件服务提供商"
-      },
-      {
-        "value": 1029
       }
     ]
   },
@@ -647,18 +626,12 @@ module.exports = [
         "label": "菜谱"
       },
       {
-        "value": 638
-      },
-      {
         "value": 632,
         "label": "餐饮服务场所"
       },
       {
         "value": 634,
         "label": "餐厅排队"
-      },
-      {
-        "value": 636
       },
       {
         "value": 922,
@@ -721,21 +694,12 @@ module.exports = [
         "label": "视频"
       },
       {
-        "value": 281
-      },
-      {
         "value": 283,
         "label": "音乐"
       },
       {
-        "value": 285
-      },
-      {
         "value": 594,
         "label": "小说"
-      },
-      {
-        "value": 600
       },
       {
         "value": 602,
@@ -833,9 +797,6 @@ module.exports = [
     "value": "304",
     "label": "商家自营",
     "children": [
-      {
-        "value": 305
-      },
       {
         "value": 307,
         "label": "服装/鞋/箱包"
@@ -1001,9 +962,6 @@ module.exports = [
       {
         "value": 880,
         "label": "一般财务服务"
-      },
-      {
-        "value": 920
       },
       {
         "value": 930,

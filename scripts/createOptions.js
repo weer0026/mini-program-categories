@@ -9,16 +9,21 @@ var options = [];
 
 for (index in struct) {
   var tem = {};
+  if (!map[index]) {
+    continue;
+  }
   tem = {
     value: index,
     label: map[index],
     children: []
   };
   for (id in struct[index]) {
-    tem["children"].push({
-      value: struct[index][id],
-      label: map[struct[index][id]]
-    });
+    if (map[struct[index][id]]) {
+      tem["children"].push({
+        value: struct[index][id],
+        label: map[struct[index][id]]
+      });
+    }
   }
   options.push(tem);
 }
