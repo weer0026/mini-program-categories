@@ -18,6 +18,18 @@ module.exports = [
       {
         "value": 558,
         "label": "装卸搬运"
+      },
+      {
+        "value": 1033,
+        "label": "寄件/收件"
+      },
+      {
+        "value": 1067,
+        "label": "快递柜"
+      },
+      {
+        "value": 1085,
+        "label": "货物运输"
       }
     ]
   },
@@ -25,10 +37,6 @@ module.exports = [
     "value": "8",
     "label": "教育",
     "children": [
-      {
-        "value": 9,
-        "label": "学历教育"
-      },
       {
         "value": 590,
         "label": "出国留学"
@@ -64,6 +72,22 @@ module.exports = [
       {
         "value": 582,
         "label": "特殊人群教育"
+      },
+      {
+        "value": 1043,
+        "label": "在线视频课程"
+      },
+      {
+        "value": 1087,
+        "label": "学历教育（学校）"
+      },
+      {
+        "value": 1089,
+        "label": "素质教育"
+      },
+      {
+        "value": 1091,
+        "label": "教育平台"
       }
     ]
   },
@@ -85,7 +109,7 @@ module.exports = [
       },
       {
         "value": 400,
-        "label": "医疗保健信息服务"
+        "label": "健康（资讯）服务"
       },
       {
         "value": 411,
@@ -100,10 +124,6 @@ module.exports = [
         "label": "医疗器械生产企业"
       },
       {
-        "value": 564,
-        "label": "医疗器械经营、销售"
-      },
-      {
         "value": 864,
         "label": "互联网医院"
       },
@@ -116,8 +136,20 @@ module.exports = [
         "label": "医疗-血液、干细胞服务"
       },
       {
-        "value": 928,
-        "label": "健康咨询/问诊"
+        "value": 1041,
+        "label": "其他医学健康服务"
+      },
+      {
+        "value": 1049,
+        "label": "医疗器械自营"
+      },
+      {
+        "value": 1051,
+        "label": "医疗器械经营销售平台"
+      },
+      {
+        "value": 1083,
+        "label": "临床试验"
       }
     ]
   },
@@ -191,7 +223,7 @@ module.exports = [
       },
       {
         "value": 87,
-        "label": "水电局"
+        "label": "水电"
       },
       {
         "value": 89,
@@ -212,10 +244,6 @@ module.exports = [
       {
         "value": 97,
         "label": "社会保障"
-      },
-      {
-        "value": 409,
-        "label": "图书馆"
       },
       {
         "value": 700,
@@ -368,6 +396,14 @@ module.exports = [
       {
         "value": 910,
         "label": "烟草管理单位"
+      },
+      {
+        "value": 1101,
+        "label": "网信系统"
+      },
+      {
+        "value": 1107,
+        "label": "健康数据统计"
       }
     ]
   },
@@ -377,7 +413,7 @@ module.exports = [
     "children": [
       {
         "value": 100,
-        "label": "基金"
+        "label": "公募基金"
       },
       {
         "value": 102,
@@ -409,7 +445,7 @@ module.exports = [
       },
       {
         "value": 568,
-        "label": "非金融机构自营小额贷款"
+        "label": "非金融机构自营小额贷款/融资担保/商业保理"
       },
       {
         "value": 802,
@@ -434,6 +470,22 @@ module.exports = [
       {
         "value": 1015,
         "label": "实物黄金买卖"
+      },
+      {
+        "value": 1077,
+        "label": "信用卡"
+      },
+      {
+        "value": 1097,
+        "label": "第三方互联网保险"
+      },
+      {
+        "value": 1099,
+        "label": "私募基金"
+      },
+      {
+        "value": 1113,
+        "label": "电子汇票"
       }
     ]
   },
@@ -508,6 +560,10 @@ module.exports = [
       {
         "value": 898,
         "label": "顺风车(拼车)"
+      },
+      {
+        "value": 1095,
+        "label": "出租车"
       }
     ]
   },
@@ -537,10 +593,6 @@ module.exports = [
     "value": "150",
     "label": "生活服务",
     "children": [
-      {
-        "value": 151,
-        "label": "票务"
-      },
       {
         "value": 155,
         "label": "生活缴费"
@@ -592,6 +644,10 @@ module.exports = [
       {
         "value": 1013,
         "label": "开锁服务"
+      },
+      {
+        "value": 1039,
+        "label": "营业性演出票务"
       }
     ]
   },
@@ -604,12 +660,20 @@ module.exports = [
         "label": "硬件与设备"
       },
       {
-        "value": 213,
-        "label": "电信运营商"
-      },
-      {
         "value": 413,
         "label": "软件服务提供商"
+      },
+      {
+        "value": 1071,
+        "label": "基础电信运营商"
+      },
+      {
+        "value": 1073,
+        "label": "电信业务代理商"
+      },
+      {
+        "value": 1079,
+        "label": "多方通信"
       }
     ]
   },
@@ -627,7 +691,7 @@ module.exports = [
       },
       {
         "value": 632,
-        "label": "餐饮服务场所"
+        "label": "餐饮服务场所/餐饮服务管理企业"
       },
       {
         "value": 634,
@@ -678,6 +742,10 @@ module.exports = [
       {
         "value": 644,
         "label": "景区服务"
+      },
+      {
+        "value": 1069,
+        "label": "旅游退税"
       }
     ]
   },
@@ -692,6 +760,10 @@ module.exports = [
       {
         "value": 279,
         "label": "视频"
+      },
+      {
+        "value": 281,
+        "label": "语音"
       },
       {
         "value": 283,
@@ -716,6 +788,10 @@ module.exports = [
       {
         "value": 1025,
         "label": "宗教信息服务"
+      },
+      {
+        "value": 1093,
+        "label": "学术期刊"
       }
     ]
   },
@@ -790,6 +866,10 @@ module.exports = [
       {
         "value": 902,
         "label": "发票查询"
+      },
+      {
+        "value": 1047,
+        "label": "视频客服"
       }
     ]
   },
@@ -900,6 +980,10 @@ module.exports = [
       {
         "value": 1031,
         "label": "电话卡销售"
+      },
+      {
+        "value": 1055,
+        "label": "预付卡销售"
       }
     ]
   },
@@ -965,11 +1049,11 @@ module.exports = [
       },
       {
         "value": 930,
-        "label": "专利代理"
+        "label": "专利/商标代理"
       },
       {
         "value": 932,
-        "label": "亲子鉴定"
+        "label": "亲子/司法鉴定"
       },
       {
         "value": 1005,
@@ -978,6 +1062,10 @@ module.exports = [
       {
         "value": 1007,
         "label": "第三方人力资源服务"
+      },
+      {
+        "value": 1081,
+        "label": "司法拍卖"
       }
     ]
   },
@@ -1102,6 +1190,10 @@ module.exports = [
       {
         "value": 894,
         "label": "汽车厂商"
+      },
+      {
+        "value": 1045,
+        "label": "汽车预售服务"
       }
     ]
   },
@@ -1132,6 +1224,10 @@ module.exports = [
       {
         "value": 997,
         "label": "其他游戏"
+      },
+      {
+        "value": 1035,
+        "label": "文化互动"
       }
     ]
   },
